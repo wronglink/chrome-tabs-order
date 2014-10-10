@@ -9,10 +9,9 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "default_locale": "en",
   "background": {
     "scripts": [
-      "src/bg/background.js"
+      "background.js"
     ],
     "persistent": false
   },
@@ -23,14 +22,14 @@
     "moveCurrentTabLeft": {
       "suggested_key": {
         "default": "Ctrl+Shift+Left",
-        "mac": "Command+Shift+Left"
+        "mac": "MacCtrl+Shift+Left"
       },
       "description": "Move tab left"
     },
     "moveCurrentTabRight": {
       "suggested_key": {
         "default": "Ctrl+Shift+Right",
-        "mac": "Command+Shift+Right"
+        "mac": "MacCtrl+Shift+Right"
       },
       "description": "Move tab right"
     }

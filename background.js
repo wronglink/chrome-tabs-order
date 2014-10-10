@@ -16,7 +16,7 @@ chrome.commands.onCommand.addListener(function(command) {
         case "moveCurrentTabRight":
             chrome.tabs.query({active: true, lastFocusedWindow: true}, function (tabs) {
                 chrome.tabs.query({lastFocusedWindow: true}, function (totalTabs) {
-                    if totalTabs.length == tabs[0].index + 1 {
+                    if (totalTabs.length == tabs[0].index + 1) {
                         newIndex = 0;
                     } else {
                         newIndex = tabs[0].index + 1;
